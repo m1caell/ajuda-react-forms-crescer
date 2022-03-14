@@ -1,0 +1,28 @@
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 550px;
+}
+
+.steps > .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.steps .step-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.steps-divider {
+  width: 18%;
+  height: 1;
+  border: 1px dashed #d45aff;
+  position: relative;
+  bottom: 15px;
+}

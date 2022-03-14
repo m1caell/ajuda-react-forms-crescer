@@ -1,1 +1,7 @@
 export * from "./button/button.component.jsx"
+export * from "./steps/steps.component.jsx"
+export * from "./input/input.component.jsx"
+export * from "./select/select.component.jsx"
+export * from "./radio/radio.component.jsx"
+export * from "./personal-data-step/personal-data-step.component.jsx"
+export * from "./academics-data-step/academics-data-step.component.jsx"

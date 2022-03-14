@@ -1,0 +1,34 @@
+.personal-data-step .single-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.personal-data-step .input-field,
+.select-field,
+.radio-field {
+  margin-bottom: 28px;
+}
+
+.personal-data-step > .form {
+  margin: 27px 0;
+}
+
+.personal-data-step .input-field:nth-child(1) {
+  width: 100%;
+  margin-right: 16px;
+}
+
+.personal-data-step .input-field:nth-child(2) {
+  max-width: 98px;
+}
+
+.personal-data-step .select-field {
+  max-width: 220px;
+  width: 100%;
+}
+
+.controls-row {
+  display: flex;
+  justify-content: center;
+}

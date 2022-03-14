@@ -1,0 +1,39 @@
+.radio-field {
+  display: flex;
+  padding: 5px;
+}
+
+.radio-field .input {
+  display: none;
+}
+
+.radio-field .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.radio-field .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #000000;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+
+.radio-field .input:checked ~ .dot {
+  opacity: 1;
+}
+
+.radio-field .label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 10px;
+}

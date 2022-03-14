@@ -1,0 +1,19 @@
+.select-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-field .label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.select-field .select {
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  height: 40px;
+}

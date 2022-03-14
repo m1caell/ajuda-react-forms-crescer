@@ -1,0 +1,19 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field .label {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.input-field .input {
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  height: 40px;
+}
